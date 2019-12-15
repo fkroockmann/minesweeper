@@ -24,7 +24,7 @@ type GridCustomHook = [
 
 type StartTimeCustomHook = [number, () => void, () => void, () => void];
 
-const generateGrid = () => Grid.generate(10, 10, 3);
+const generateGrid = () => Grid.generate(10, 10, 10);
 
 const initialContext: GameContextProps = {
     grid: generateGrid(),

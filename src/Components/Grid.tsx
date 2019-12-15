@@ -74,7 +74,6 @@ export const Grid: React.FC = () => {
         <StyledWrapper className="wrapper">
             <div className="board">
                 <h1>Démineur: LE JEU!</h1>
-                {time}
                 <RollBackButton onClick={rollback} />
                 <StyledGrid column={grid.column}>
                     {gameOver !== false && (
